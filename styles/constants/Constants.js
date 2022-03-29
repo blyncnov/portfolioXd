@@ -48,6 +48,10 @@ color: ${({ color }) => color ? color : "black"};
 @media (max-width: 768px) {
   font-size: ${({ size }) => size ? size : "14px"};
 }
+
+span{
+  color: #123182;
+}
 `
 
 
@@ -73,7 +77,7 @@ export const Button1 = styled.button`
       &:hover {
            box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.03),
       0px 2px 4px rgba(96, 97, 112, 0.14);
-    color: ${({TexTH}) => TexTH ? TexTH : "#123182"};
+    color: ${({TexTH}) => TexTH ? TexTH : "white"};
     background-color: ${({BgT}) => BgT ? BgT : "transparent"};
     border: ${({border}) => border ? border : "1px solid #123182"};
       }

@@ -30,10 +30,12 @@ const Navigation = () => {
                     <Section>
                         <SectionInner>
                             <Divider>
-                                <HeadingOne color="#ccd6f6">THE BEST WAY TO SAVE TOWARD YOUR GOALS.</HeadingOne>
+                                <HeadingOne color="#ccd6f6">
+                                    <Paragraph color="#123182">Hi, my name is Taiwo Boluwatife</Paragraph> I Build Cool Web Related Stuff.
+                                </HeadingOne>
                                 <br />
-                                <Paragraph color="#8892B0">Blyncnov helps you easily save little by little towards your goals and you get up to 10% interest,all for free.
-                                    Setup savings towards many goals e.g Just Savings, Rent, School fees, Car, etc.
+                                <Paragraph color="#8892B0"> I&apos;m a <span>Frontend</span> Major Developer specializing in building cool UI and great <span>User Experience </span> interfaces.
+                                    Currently i&apos;m focusing on transitioning into <span>Blockchain Development.</span>
                                 </Paragraph>
 
                                 <br />
