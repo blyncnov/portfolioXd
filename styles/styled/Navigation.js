@@ -47,7 +47,7 @@ color: #123182;
 export const NavigationShadow  = styled.div`
 z-index: 99;
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     position: absolute;
     background-color: transparent;
     transition: all 1s ease-in;
@@ -84,7 +84,7 @@ li:hover{
     transform: scale(1.09);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     display: block;
     background-color: #0a192f;
     backdrop-filter: blur(20px);
@@ -106,7 +106,7 @@ display: none;
 z-index: 99999;
 cursor: pointer;
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     display: block;
 }
 `

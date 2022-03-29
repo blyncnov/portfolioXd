@@ -6,7 +6,7 @@ import Button from "../constants/Button"
 // Data
 // import { HeroData } from "../data/HeroData"
 
-import Banner from "../public/Images/assests/working.png"
+import Banner from "../public/Images/3d/biz.png"
 
 // styled-components
 import {
@@ -28,10 +28,15 @@ const Navigation = () => {
                 <Constraints Max="90%">
                     <Section>
                         <SectionInner>
+
+                            <Divider>
+                                <Image style={{ borderRadius: "3px" }} src={Banner} placeholder="blur" blurDataURL={Banner} alt="banner" layout="responsive" />
+                            </Divider>
+
                             <Divider>
                                 <HeadingOne color="#ccd6f6">THE BEST WAY TO SAVE TOWARD YOUR GOALS.</HeadingOne>
                                 <br />
-                                <Paragraph color="#8892B0">Kolopay helps you easily save little by little towards your goals and you get up to 10% interest,all for free.
+                                <Paragraph color="#8892B0">Blyncnov helps you easily save little by little towards your goals and you get up to 10% interest,all for free.
                                     Setup savings towards many goals e.g Just Savings, Rent, School fees, Car, etc.
                                 </Paragraph>
 
@@ -42,10 +47,6 @@ const Navigation = () => {
                                 </FlexBoxToRow>
                                 <br />
 
-                            </Divider>
-
-                            <Divider>
-                                <Image style={{ borderRadius: "3px" }} src={Banner} placeholder="blur" blurDataURL={Banner} alt="banner" layout="responsive" />
                             </Divider>
 
                         </SectionInner>

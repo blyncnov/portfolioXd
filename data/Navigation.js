@@ -20,13 +20,8 @@ export const NavigationLists = [
         name: "Templates",
           navigate: "templates",
     },
-      {
-        id: 4,
-          name: "Experience",
-          navigate: "experience",
-    },
         {
-        id: 5,
+        id: 4,
             name: "Contact",
           navigate: "contact",
     },
