@@ -28,11 +28,6 @@ const Navigation = () => {
                 <Constraints Max="90%">
                     <Section>
                         <SectionInner>
-
-                            <Divider>
-                                <Image style={{ borderRadius: "3px" }} src={Banner} placeholder="blur" blurDataURL={Banner} alt="banner" layout="responsive" />
-                            </Divider>
-
                             <Divider>
                                 <HeadingOne color="#ccd6f6">THE BEST WAY TO SAVE TOWARD YOUR GOALS.</HeadingOne>
                                 <br />
@@ -46,7 +41,10 @@ const Navigation = () => {
                                     <Button title="Check out my GitHub" />
                                 </FlexBoxToRow>
                                 <br />
+                            </Divider>
 
+                            <Divider>
+                                <Image style={{ borderRadius: "3px" }} src={Banner} placeholder="blur" blurDataURL={Banner} alt="banner" layout="responsive" />
                             </Divider>
 
                         </SectionInner>
