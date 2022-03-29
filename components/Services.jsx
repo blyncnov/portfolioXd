@@ -4,8 +4,8 @@ import Image from 'next/image';
 import ShowCase from "../public/Images/3d/bolu.png"
 
 import {
-    HeroContainerSection
-} from "../styles/styled/HeroPage"
+    ServicesContainer
+} from "../styles/styled/Services"
 
 import {
     Constraints, Section,
@@ -18,23 +18,23 @@ import {
 const Services = () => {
     return (
         <>
-            <HeroContainerSection>
+            <ServicesContainer>
                 <Constraints Max="90%">
                     <Section>
                         <SectionInner>
                             <Divider>
                                 <Divider>
-                                    <HeadingOne color="#ccd6f6">Mobile Application.</HeadingOne>
+                                    <HeadingOne color="#123182">Mobile Application.</HeadingOne>
                                     <br />
-                                    <Paragraph color="#8892B0">The point of using Lorem Ipsum is that it has a more-or-less normal.
+                                    <Paragraph color="#0A192F">The point of using Lorem Ipsum is that it has a more-or-less normal.
                                     </Paragraph>
                                 </Divider>
                                 <br />
                                 <br />
                                 <Divider>
-                                    <HeadingOne color="#ccd6f6">UI & UX Designs.</HeadingOne>
+                                    <HeadingOne color="#123182">UI & UX Designs.</HeadingOne>
                                     <br />
-                                    <Paragraph color="#8892B0">The point of using Lorem Ipsum is that it has a more-or-less normal.
+                                    <Paragraph color="#0A192F">The point of using Lorem Ipsum is that it has a more-or-less normal.
                                     </Paragraph>
                                 </Divider>
                             </Divider>
@@ -45,9 +45,9 @@ const Services = () => {
 
                             <Divider>
                                 <Divider>
-                                    <HeadingOne color="#ccd6f6">Web Development.</HeadingOne>
+                                    <HeadingOne color="#123182">Web Development.</HeadingOne>
                                     <br />
-                                    <Paragraph color="#8892B0"> The point of using Lorem Ipsum is that it has a more-or-less normal.
+                                    <Paragraph color="#0A192F"> The point of using Lorem Ipsum is that it has a more-or-less normal.
                                     </Paragraph>
                                 </Divider>
 
@@ -55,9 +55,9 @@ const Services = () => {
                                 <br />
 
                                 <Divider>
-                                    <HeadingOne color="#ccd6f6">Blockchain.</HeadingOne>
+                                    <HeadingOne color="#123182">Blockchain.</HeadingOne>
                                     <br />
-                                    <Paragraph color="#8892B0"> The point of using Lorem Ipsum is that it has a more-or-less normal.
+                                    <Paragraph color="#0A192F"> The point of using Lorem Ipsum is that it has a more-or-less normal.
                                     </Paragraph>
                                 </Divider>
                             </Divider>
@@ -65,7 +65,7 @@ const Services = () => {
                         </SectionInner>
                     </Section>
                 </Constraints>
-            </HeroContainerSection>
+            </ServicesContainer>
         </>
     )
 }

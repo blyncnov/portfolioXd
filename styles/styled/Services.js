@@ -1,8 +1,8 @@
 import styled from "styled-components"
 
-export const Services  = styled.div`
+export const ServicesContainer  = styled.div`
 width: auto;
 background-color: #FFFFFF;
 `
 
-export default Services
+export default ServicesContainer
