@@ -41,7 +41,7 @@ color: ${({color}) => color ? color : "#412272"};
 `
 
 export const Paragraph = styled.p`
-font-size: 14px;
+font-size: ${({size}) => size ? size : "14px"};
 line-height: 25px;
 color: ${({ color }) => color ? color : "black"};
 

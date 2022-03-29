@@ -24,17 +24,17 @@ const Services = () => {
                         <SectionInner>
                             <Divider>
                                 <Divider>
-                                    <HeadingOne color="#123182">Mobile Application.</HeadingOne>
+                                    <HeadingOne size="16px" color="#123182">Mobile Application.</HeadingOne>
                                     <br />
-                                    <Paragraph color="#0A192F">The point of using Lorem Ipsum is that it has a more-or-less normal.
+                                    <Paragraph size="12px"  color="#0A192F">The point of using Lorem Ipsum is that it has a more-or-less normal.
                                     </Paragraph>
                                 </Divider>
                                 <br />
                                 <br />
                                 <Divider>
-                                    <HeadingOne color="#123182">UI & UX Designs.</HeadingOne>
+                                    <HeadingOne size="16px" color="#123182">UI & UX Designs.</HeadingOne>
                                     <br />
-                                    <Paragraph color="#0A192F">The point of using Lorem Ipsum is that it has a more-or-less normal.
+                                    <Paragraph size="12px"  color="#0A192F">The point of using Lorem Ipsum is that it has a more-or-less normal.
                                     </Paragraph>
                                 </Divider>
                             </Divider>
@@ -45,9 +45,9 @@ const Services = () => {
 
                             <Divider>
                                 <Divider>
-                                    <HeadingOne color="#123182">Web Development.</HeadingOne>
+                                    <HeadingOne size="16px" color="#123182">Web Development.</HeadingOne>
                                     <br />
-                                    <Paragraph color="#0A192F"> The point of using Lorem Ipsum is that it has a more-or-less normal.
+                                    <Paragraph size="12px" color="#0A192F"> The point of using Lorem Ipsum is that it has a more-or-less normal.
                                     </Paragraph>
                                 </Divider>
 
@@ -55,9 +55,9 @@ const Services = () => {
                                 <br />
 
                                 <Divider>
-                                    <HeadingOne color="#123182">Blockchain.</HeadingOne>
+                                    <HeadingOne size="16px" color="#123182">Blockchain.</HeadingOne>
                                     <br />
-                                    <Paragraph color="#0A192F"> The point of using Lorem Ipsum is that it has a more-or-less normal.
+                                    <Paragraph size="12px" color="#0A192F"> The point of using Lorem Ipsum is that it has a more-or-less normal.
                                     </Paragraph>
                                 </Divider>
                             </Divider>
