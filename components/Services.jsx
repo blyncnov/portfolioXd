@@ -55,7 +55,7 @@ const Services = () => {
                                 <br />
 
                                 <Divider>
-                                    <HeadingOne size="16px" color="#123182">Blockchain.</HeadingOne>
+                                    <HeadingOne size="16px" color="#123182">Web3 Applications.</HeadingOne>
                                     <br />
                                     <Paragraph size="12px" color="#0A192F"> The point of using Lorem Ipsum is that it has a more-or-less normal.
                                     </Paragraph>
