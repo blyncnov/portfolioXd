@@ -79,7 +79,7 @@ export const Button1 = styled.button`
       }
 
       @media (max-width: 768px){
-        width: auto;
+        width: ${({full}) => full ? full : "auto"};
       
       }
 `

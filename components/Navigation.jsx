@@ -77,7 +77,7 @@ const Navigation = () => {
                                                 </Link>
                                             )
                                         })}
-                                        <Button title="Resume" />
+                                        <Button full="100%" title="Resume" />
                                     </NavigationItem>
                                 </NavigationShadow>
 
