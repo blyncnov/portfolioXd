@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 import Navigation from "../components/Navigation"
 import HeroPage from "../components/HeroPage"
+import Services from '../components/Services'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
 
       <Navigation />
       <HeroPage />
+      <Services/>
  
     </>
   )

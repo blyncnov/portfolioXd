@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 // Components
 import Button from "../constants/Button"
@@ -19,7 +20,7 @@ import {
     HeadingOne, Paragraph,
     FlexBoxToRow
 } from "../styles/constants/Constants"
-import Image from 'next/image';
+
 
 const Navigation = () => {
     return (
