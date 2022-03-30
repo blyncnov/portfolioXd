@@ -1,8 +1,9 @@
 import Head from 'next/head'
 
 import Navigation from "../components/Navigation"
-import HeroPage from "../components/HeroPage"
+import HeroIntro from "../components/HeroIntro"
 import Services from '../components/Services'
+import FloatComponents from '../components/FloatComponents'
 
 export default function Home() {
   return (
@@ -14,9 +15,9 @@ export default function Home() {
       </Head>
 
       <Navigation />
-      <HeroPage />
+      <HeroIntro />
       <Services/>
- 
+ <FloatComponents/>
     </>
   )
 }

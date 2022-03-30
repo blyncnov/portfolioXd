@@ -22,7 +22,7 @@ import {
 } from "../styles/constants/Constants"
 
 
-const Navigation = () => {
+const HeroIntro = () => {
     return (
         <>
             <HeroContainerSection>
@@ -31,7 +31,7 @@ const Navigation = () => {
                         <SectionInner>
                             <Divider>
                                 <HeadingOne color="#ccd6f6">
-                                    <Paragraph color="#F9B590">Hi 👋  , my name is Taiwo Boluwatife</Paragraph> I Build Cool Web Related Stuff.
+                                    <Paragraph color="#F9B590">Hi 👋 , my name is Taiwo Boluwatife</Paragraph> I Build Cool Web Related Stuff.
                                 </HeadingOne>
                                 <br />
                                 <Paragraph color="#8892B0"> I&apos;m a <span>Frontend</span> Major Developer specializing in building cool UI and great <span>User Experience </span> interfaces.
@@ -54,8 +54,9 @@ const Navigation = () => {
                     </Section>
                 </Constraints>
             </HeroContainerSection>
+    
         </>
     )
 }
 
-export default Navigation
+export default HeroIntro
