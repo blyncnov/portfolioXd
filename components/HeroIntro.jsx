@@ -54,7 +54,7 @@ const HeroIntro = () => {
                     </Section>
                 </Constraints>
             </HeroContainerSection>
-    
+
         </>
     )
 }

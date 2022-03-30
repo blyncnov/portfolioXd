@@ -19,8 +19,11 @@ color: #F9B590;
 const FloatAbsolute = styled.div`
 position: fixed;
 bottom: 0;
-right: .5em;
+right: 1em;
 
+@media (max-width: 768px) {
+    right: 0;
+}
 
 `
 
@@ -47,7 +50,7 @@ const FloatComponents = () => {
                 <FloatBox>
                     <InnerFloatBox>
                         <Paragraph color="#F9B590">
-                            Bholuwatife00@gmail.com
+                            bholuwatife00@gmail.com
                         </Paragraph>
                         <div></div>
                     </InnerFloatBox>
