@@ -32,7 +32,7 @@ align-items: center;
 
 .Logo{
 cursor: pointer;
-color: #123182;
+color: #0283F2;
 }
 
 
@@ -75,7 +75,7 @@ li{
     transition: all 0.5s ease-in-out;
 
     span{
-    color: #123182;
+    color: #0283F2;
     }
 }
 

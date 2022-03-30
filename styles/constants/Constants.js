@@ -50,7 +50,7 @@ color: ${({ color }) => color ? color : "black"};
 }
 
 span{
-  color: #123182;
+  color: #0283F2;
 }
 `
 
@@ -58,7 +58,7 @@ span{
 export const Button1 = styled.button`
    background-color:  ${({bg}) => bg ? bg : "transparent"};
     color: ${({color}) => color ? color : "#ccd6f6"};
-    border: 1px solid #123182;
+    border: 1px solid #0283F2;
     box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.04),
     0px 2px 4px rgba(96, 97, 112, 0.16);
     font-weight: 500;
@@ -79,7 +79,7 @@ export const Button1 = styled.button`
       0px 2px 4px rgba(96, 97, 112, 0.14);
     color: ${({TexTH}) => TexTH ? TexTH : "white"};
     background-color: ${({BgT}) => BgT ? BgT : "transparent"};
-    border: ${({border}) => border ? border : "1px solid #123182"};
+    border: ${({border}) => border ? border : "1px solid #0283F2"};
       }
 
       @media (max-width: 768px){
