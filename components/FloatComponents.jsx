@@ -39,7 +39,7 @@ gap: 1em;
 
 div{
     width: 2px;
-    height: 50px;
+    height: 20px;
     background-color: #F9B590;
 }
 
