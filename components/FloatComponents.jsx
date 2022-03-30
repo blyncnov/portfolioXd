@@ -19,10 +19,12 @@ color: #F9B590;
 const FloatAbsolute = styled.div`
 position: fixed;
 bottom: 0;
-right: 1em;
+right: ${({ right }) => right ? right : "1em"};
+left: ${({ left }) => left ? left : "none"};
 
 @media (max-width: 768px) {
     right: 0;
+ left: ${({ left }) => left ? "0" : "none"};
 }
 
 `
@@ -43,14 +45,14 @@ div{
 
 `
 
-const FloatComponents = () => {
+const FloatComponents = ({ value, left, right }) => {
     return (
         <>
-            <FloatAbsolute>
+            <FloatAbsolute left={left} right={right}>
                 <FloatBox>
                     <InnerFloatBox>
                         <Paragraph color="#F9B590">
-                            bholuwatife00@gmail.com
+                            <a style={{ color: "inherit" }} href="https://github.com/blyncnov">  {value} </a>
                         </Paragraph>
                         <div></div>
                     </InnerFloatBox>
