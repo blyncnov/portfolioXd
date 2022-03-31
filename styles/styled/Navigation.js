@@ -10,8 +10,8 @@ background-color: #0a192f;
 export const NavigationContainer  = styled.div`
 width: 100%;
 background-color: rgb(10, 25, 47, .6);
-box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.03);
-0px 2px 4px rgba(96, 97, 112, 0.14);
+box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 2px 0px;
+0px 1px 1px rgba(96, 97, 112, 0.14);
 backdrop-filter:${({scroll}) => scroll ? " blur(50px)" : " blur(50px)"};
 color: #333;
 position: fixed;
