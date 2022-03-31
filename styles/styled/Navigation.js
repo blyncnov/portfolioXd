@@ -9,7 +9,7 @@ background-color: #0a192f;
 
 export const NavigationContainer  = styled.div`
 width: 100%;
-background-color: rgb(10, 25, 47, .5);
+background-color: rgb(10, 25, 47, .8);
 box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.03);
 0px 2px 4px rgba(96, 97, 112, 0.14);
 backdrop-filter:${({scroll}) => scroll ? " blur(50px)" : " blur(50px)"};
@@ -49,11 +49,11 @@ z-index: 99;
 
 @media (max-width: 800px) {
     position: absolute;
-    background-color: transparent;
+background-color: rgb(10, 25, 47, .9);
     transition: all 1s ease-in;
     width: 100%;
     height: 100vh;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(50px);
     left: ${({clicked}) => clicked ? "0" : "-100%"};
     top: 0;
     right: 0;
