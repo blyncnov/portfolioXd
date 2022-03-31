@@ -28,12 +28,23 @@ justify-content: space-between;
 
 export const Divider  = styled.div`
 width: 100%;
-order: ${({order}) => (order ? order : "0")}
+order: ${({ order }) => (order ? order : "0")}
+
+@media (max-width: 768px) {
+  order: ${({ order }) => (order ? 0 : order)}
+}
 `
 
 export const FlexBoxToRow  = styled.div`
 display: flex;
 gap: 1em;
+align-items: center;
+
+.hr{
+  width: 50%;
+  height: 1px;
+  border: 1px solid #F9B590;
+}
 `
 
 export const HeadingOne  = styled.h1`
