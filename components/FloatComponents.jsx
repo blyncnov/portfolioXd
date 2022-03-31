@@ -23,8 +23,7 @@ right: ${({ right }) => right ? right : "1em"};
 left: ${({ left }) => left ? left : "none"};
 
 @media (max-width: 768px) {
-    right: 0;
- left: ${({ left }) => left ? "0" : "none"};
+    display: none;
 }
 
 `

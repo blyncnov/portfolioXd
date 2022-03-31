@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Constraints  = styled.div`
 width: 100%;
-max-width: ${({Max}) => Max ? Max : "90%"};
+max-width: ${({max}) => max ? max : "90%"};
 margin: 0 auto;
 `
 
@@ -28,6 +28,7 @@ justify-content: space-between;
 
 export const Divider  = styled.div`
 width: 100%;
+order: ${({order}) => (order ? order : "0")}
 `
 
 export const FlexBoxToRow  = styled.div`

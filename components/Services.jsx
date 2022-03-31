@@ -19,7 +19,7 @@ const Services = () => {
     return (
         <>
             <ServicesContainer>
-                <Constraints Max="88%">
+                <Constraints >
                     <Section>
                         <SectionInner>
                             <Divider>

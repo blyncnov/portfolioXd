@@ -26,7 +26,7 @@ const HeroIntro = () => {
     return (
         <>
             <HeroContainerSection>
-                <Constraints Max="90%">
+                <Constraints max="90%">
                     <Section>
                         <SectionInner>
                             <Divider>
@@ -46,7 +46,7 @@ const HeroIntro = () => {
                                 <br />
                             </Divider>
 
-                            <Divider>
+                            <Divider order="1">
                                 <Image style={{ borderRadius: "3px" }} src={Banner} placeholder="blur" blurDataURL={Banner} alt="banner" layout="responsive" />
                             </Divider>
 
