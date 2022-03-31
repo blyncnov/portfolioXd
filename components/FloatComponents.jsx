@@ -38,7 +38,7 @@ gap: 1em;
 
 div{
     width: 2px;
-    height: 20px;
+    height: 100px;
     background-color: #F9B590;
 }
 
