@@ -67,13 +67,12 @@ const Projects = () => {
                                 <br />
                                 <Paragraph color="#636b83">
                                     A web app for Food Website template. Dope Ul recently played best on Youtube,
-                                    and detailed information insight about everything .
+                                    and detailed information insight about everything.
                                 </Paragraph>
                                 <br />
                                 <li>Next js <span> |</span> {" "}
                                     React js <span> |</span>  {" "}
                                     Styled Components  <span> |</span>  {" "}
-                                    Swiper Js <span> |</span>  {" "}
                                     Netlify </li>
                             </Divider>
                             <Divider order="3">
