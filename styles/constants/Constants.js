@@ -17,7 +17,7 @@ width: 100%;
 display: grid;
 gap: 2em;
 grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
-align-items: center;
+align-items: ${({align}) => align ? align : "center"};
 justify-content: space-between;
 
 @media (max-width: 768px) {

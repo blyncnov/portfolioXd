@@ -5,7 +5,6 @@ import { IconContext } from "react-icons";
 import { SiShowpad } from "react-icons/si"
 
 import ShowCase from "../public/Images/3d/bolu.png"
-
 import { Skills } from "../data/Skills"
 
 import {

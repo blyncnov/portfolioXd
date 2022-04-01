@@ -4,6 +4,7 @@ import Navigation from "../components/Navigation"
 import HeroIntro from "../components/HeroIntro"
 import Services from '../components/Services'
 import FloatComponents from '../components/FloatComponents'
+import Projects from '../components/Projects'
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
       <Services/>
       <FloatComponents  value="bholuwatife00@gmail.com"/>
       <FloatComponents left="1em" right="0" value="https://github.com/blyncnov" />
-      
+      <Projects/>
     </>
   )
 }
