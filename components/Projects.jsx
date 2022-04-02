@@ -30,7 +30,7 @@ const Projects = () => {
                     {AllProjectData.map((project) => {
                         return (
                             <div key={project.id} >
-                                <Section>
+                                <Section padding="1.7em 0">
                                     <SectionInner >
                                         <Divider order={project.order} orderM="0">
                                             <br />
