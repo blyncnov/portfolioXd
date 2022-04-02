@@ -50,13 +50,15 @@ const Projects = () => {
                                             </ProjectTech>
                                         </Divider>
                                         <Divider order="0" style={{ cursor: "pointer" }}>
-                                            <Link href={project.ProjectUrl} passHref style={{ cursor: "pointer" }} target="_blank">
-                                                <Image style={{ borderRadius: "3px" }}
-                                                    src={project.ProjectImage}
-                                                    placeholder="blur"
-                                                    blurDataURL={project.ProjectImage}
-                                                    alt="banner"
-                                                    layout="responsive" />
+                                            <Link href={project.ProjectUrl} passHref={true} target="_blank">
+                                                <div>
+                                                    <Image style={{ borderRadius: "3px" }}
+                                                        src={project.ProjectImage}
+                                                        placeholder="blur"
+                                                        blurDataURL={project.ProjectImage}
+                                                        alt="banner"
+                                                        layout="responsive" />
+                                                </div>
                                             </Link>
                                         </Divider>
                                     </SectionInner>
