@@ -40,8 +40,8 @@ const HeroIntro = () => {
 
                                 <br />
                                 <FlexBoxToRow>
-                                    <Button title="Hire Me" />
-                                    <Button title="Check out my GitHub" />
+                                    <Button tittle="Hire Me" urlData="mailto:bholuwatife00@gmail.com" />
+                                    <Button tittle="Check out my GitHub" urlData="https://github.com/blyncnov" />
                                 </FlexBoxToRow>
                                 <br />
                             </Divider>

@@ -8,7 +8,7 @@ export const NavigationLists = [
     {
         id: 1,
         name: "Home",
-         navigate: "home",
+         navigate: "",
     },
     {
         id: 2,

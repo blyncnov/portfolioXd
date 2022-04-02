@@ -29,10 +29,11 @@ justify-content: space-between;
 
 export const Divider  = styled.div`
 width: 100%;
-order: ${({ order }) => (order ? order : "0")}
+order: ${({ order }) => (order ? order : "0")};
+// background-color: ${({ order }) => (order ?  "red" : "green")};
 
 @media (max-width: 768px) {
-  order: ${({ order }) => (order ? 0 : order)}
+  order: ${({ orderM }) => (orderM ? orderM : "0")};
 }
 `
 
@@ -90,8 +91,8 @@ export const Button1 = styled.button`
       &:hover {
            box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.03),
       0px 2px 4px rgba(96, 97, 112, 0.14);
-    color: ${({TexTH}) => TexTH ? TexTH : "white"};
-    background-color: ${({BgT}) => BgT ? BgT : "transparent"};
+    color: ${({colorHover}) => colorHover ? colorHover : "white"};
+    background-color: ${({bgHover}) => bgHover ? bgHover : "transparent"};
     border: ${({border}) => border ? border : "1px solid #0283F2"};
       }
 

@@ -20,9 +20,15 @@ z-index: 1;
 line-height: 1.5;
 `
 
-// export const ProjectDetails  = styled.div`
-// position: relative;
-// `
+export const ProjectTech  = styled.ul`
+display: flex;
+gap: 1em;
+
+li{
+    display: flex;
+    gap: 1em;
+}
+`
 
 
 

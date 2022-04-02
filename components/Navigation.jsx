@@ -77,7 +77,7 @@ const Navigation = () => {
                                                 </Link>
                                             )
                                         })}
-                                        <Button full="100%" title="Resume" />
+                                        <Button full="100%" tittle="Resume" urlData="https://github.com/blyncnov" />
                                     </NavigationItem>
                                 </NavigationShadow>
 
