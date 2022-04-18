@@ -21,7 +21,8 @@ line-height: 1.5;
 `
 
 export const ProjectTech  = styled.ul`
-display: flex;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 gap: 1em;
 
 li{
