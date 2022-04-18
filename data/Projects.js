@@ -1,12 +1,46 @@
 import Project from "../public/Images/assests/nextfood.png"
 import Project1 from "../public/Images/assests/ishortner.png"
 import Project2 from "../public/Images/assests/wpost.png"
-import Project3 from "../public/Images/assests/xdome2.png"
+import Project3 from "../public/Images/assests/xdome.png"
+import Project4 from "../public/Images/assests/vitriol.png"
+import Project5 from "../public/Images/assests/fichta.png"
 
 
 export const AllProjectData = [
+        {
+        id: 1,
+        ProjectName: "!Vitriol  ",
+        ProjectTechUsed: [
+            "Next Js",
+            "styled-Components",
+            "Redux toolkit",
+            "vercel",
+            "ethers js",
+            "MetaMask"
+        ],
+        ProjectDescription: "A web3 charity dapp Website template. Awesome UI , connected to ethers and blockchain.",
+            ProjectImage: Project4,
+          ProjectUrl: "https://vitriol-delta.vercel.app/",
+        order: 0,
+    },
+        {
+        id: 2,
+        ProjectName: "Fichta",
+        ProjectTechUsed: [
+            "Next Js",
+            "styled-Components",
+            "Redux toolkit",
+            "vercel",
+            "ethers js",
+            "MetaMask"
+        ],
+        ProjectDescription: "A web3 Ecommerce dapp for grocery. Dope Ul recently played best on Youtube, and detailed information insight about everything .",
+            ProjectImage: Project5,
+          ProjectUrl: "https://fichta.vercel.app/",
+        order: 1,
+    },
     {
-        id: 0,
+        id: 3,
         ProjectName: "NextFood Template",
         ProjectTechUsed: [
             "React Js",
@@ -20,7 +54,7 @@ export const AllProjectData = [
         order: 0,
     },
     {
-        id: 1,
+        id: 4,
         ProjectName: "Ishortner",
         ProjectTechUsed: [
             "React Js",
@@ -33,7 +67,7 @@ export const AllProjectData = [
         order: 1,
     },
     {
-        id: 2,
+        id: 5,
         ProjectName: "Wpost ",
         ProjectTechUsed: [
             "React Js",
@@ -58,7 +92,8 @@ export const AllProjectData = [
             ProjectImage: Project3,
           ProjectUrl: "https://xdome.vercel.app/",
         order: 1,
-    }
+    },
+
 ]
 
 export default AllProjectData
