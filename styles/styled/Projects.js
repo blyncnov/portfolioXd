@@ -20,14 +20,14 @@ z-index: 1;
 line-height: 1.5;
 `
 
-export const ProjectTech  = styled.ul`
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 1em;
+export const ProjectTech = styled.ul`
+display: inline-block;
+// grid-template-columns: repeat(3, 1fr);
+// gap: 1em;
 
 li{
-    display: flex;
-    gap: 1em;
+    display: inline-block;
+    margin: 1em 1em 0 0;
 }
 `
 

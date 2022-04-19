@@ -51,7 +51,7 @@ const Projects = () => {
                                         </Divider>
                                         <Divider order="0" style={{ cursor: "pointer" }}>
                                             <Link href={project.ProjectUrl} passHref={true} target="_blank">
-                                                <div>
+                                                <div style={{ boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" }}>
                                                     <Image style={{ borderRadius: "3px" }}
                                                         src={project.ProjectImage}
                                                         placeholder="blur"
