@@ -3,7 +3,8 @@ import React from 'react'
 import { AllProjectData } from "../data/Projects"
 
 import {
-    ProjectContainer, ProjectTech
+    ProjectContainer, ProjectTech,
+    ImageAnimation,
 } from "../styles/styled/Projects"
 
 import {
@@ -51,14 +52,14 @@ const Projects = () => {
                                         </Divider>
                                         <Divider order="0" style={{ cursor: "pointer" }}>
                                             <Link href={project.ProjectUrl} passHref={true} target="_blank">
-                                                <div style={{ boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" }}>
+                                                <ImageAnimation style={{ boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" }}>
                                                     <Image style={{ borderRadius: "3px" }}
                                                         src={project.ProjectImage}
                                                         placeholder="blur"
                                                         blurDataURL={project.ProjectImage}
                                                         alt="banner"
                                                         layout="responsive" />
-                                                </div>
+                                                </ImageAnimation>
                                             </Link>
                                         </Divider>
                                     </SectionInner>

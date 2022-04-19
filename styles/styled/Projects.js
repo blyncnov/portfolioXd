@@ -22,13 +22,22 @@ line-height: 1.5;
 
 export const ProjectTech = styled.ul`
 display: inline-block;
-// grid-template-columns: repeat(3, 1fr);
-// gap: 1em;
 
 li{
     display: inline-block;
-    margin: 1em 1em 0 0;
+    margin: 0 1em 0 0;
+    opacity: 0.7;
 }
+`
+
+export const ImageAnimation = styled.div`
+
+transition: all 0.5s ease-in-out;
+
+&:hover{
+    transform: scale(1.05);
+}
+
 `
 
 
