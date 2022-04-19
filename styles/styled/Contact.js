@@ -11,7 +11,7 @@ input, textarea{
     width: 100%;
     padding: 0 .5em;
     height: 42px;
-    border: 2px solid rgba(129,129,129,.2);
+    border: .9px solid rgba(129,129,129,.2);
     border-radius: 2px;
     margin-bottom: 1em;
     font-size: 1.2em;

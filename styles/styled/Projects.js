@@ -25,7 +25,7 @@ display: inline-block;
 
 li{
     display: inline-block;
-    margin: 0 1em 0 0;
+    margin: .5em 1em 0 0;
     opacity: 0.7;
 }
 `
