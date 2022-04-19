@@ -54,6 +54,18 @@ const Contact = (Status) => {
                     </SectionInner>
                 </Section>
             </Constraints>
+            <div>
+                <FlexBoxToRow style={{ justifyContent: 'center' }}>
+                    <br />
+                    <br />
+                    <h6>Designed & Built by Taiwo Boluwatife
+                    
+                    </h6>
+                    <link href="https://komarev.com/ghpvc/?username=blyncnov" />
+                    <br />
+                    <br />
+                </FlexBoxToRow>
+            </div>
         </>
     )
 }
