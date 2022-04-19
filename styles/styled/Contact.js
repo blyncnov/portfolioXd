@@ -19,7 +19,7 @@ input, textarea{
     background-color: transparent;
     transition: all 0.5s ease-in-out;
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 12px;
 
     &:focus{
         outline: none;
@@ -30,8 +30,10 @@ input, textarea{
 
 textarea{
     min-height: 190px;
+    font-size: 13px;
     overflow: auto;
-    padding: 10px 15px;
+     padding: 1em .5em;
+    font-family: 'Roboto', sans-serif;
 }
 
 button{

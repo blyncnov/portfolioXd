@@ -38,13 +38,13 @@ const Contact = (Status) => {
                                 Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
                             </Paragraph>
                             <FormContact>
-                                <input type="text" name="name" />
+                                <input type="text" name="name" placeholder="Your Full Name"/>
                                 <br />
-                                <input type="email" name="email" />
+                                <input type="email" name="email" placeholder="Your Email Address"/>
                                 <br />
-                                <input type="number" name="number" />
+                                <input type="number" name="number" placeholder='Mobile Number'/>
                                 <br />
-                                <textarea name="message" cols="30" rows="10">
+                                <textarea name="message" cols="30" rows="10" placeholder="Enter Your Message">
                                 </textarea>
                                 <FlexBoxToRow style={{ justifyContent: 'start' }}>
                                     <button type="submit">Say Hello</button>
