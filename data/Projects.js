@@ -34,7 +34,7 @@ export const AllProjectData = [
             "ethers js",
             "MetaMask"
         ],
-        ProjectDescription: "A web3 Ecommerce dapp for grocery. Dope Ul recently played best on Youtube, and detailed information insight about everything .",
+        ProjectDescription: "A web3 Ecommerce dapp for grocery , connected to ethers and blockchain. all paymnet is done in crypto currency. ",
             ProjectImage: Project5,
           ProjectUrl: "https://fichta.vercel.app/",
         order: 1,
@@ -48,7 +48,7 @@ export const AllProjectData = [
             "Styled-Components",
             "Vercel"
         ],
-        ProjectDescription: "A web app for Food Website template. Dope Ul recently played best on Youtube, and detailed information insight about everything .",
+        ProjectDescription: "A web app for Food Website template.  this project includes all the features of the website.",
         ProjectImage: Project,
         ProjectUrl: "https://nextfood.vercel.app",
         order: 0,
@@ -61,7 +61,7 @@ export const AllProjectData = [
             "styled-Components",
             "Netlify"
         ],
-        ProjectDescription: "A web app for Food Website template. Dope Ul recently played best on Youtube, and detailed information insight about everything .",
+        ProjectDescription: "A web app for url link shortner to give easy and memorable url to your website.",
         ProjectImage: Project1,
           ProjectUrl: "https://ishortner.netlify.app/",
         order: 1,
@@ -74,7 +74,7 @@ export const AllProjectData = [
             "styled-Components",
             "Netlify"
         ],
-        ProjectDescription: "A web app for Food Website template. Dope Ul recently played best on Youtube, and detailed information insight about everything .",
+        ProjectDescription: "A fun Practice template which i built during my learning phrase. ",
         ProjectImage: Project2,
           ProjectUrl: "https://wpost.netlify.app/",
         order: 0,
@@ -88,7 +88,7 @@ export const AllProjectData = [
             "Redux toolkit",
             "vercel",
         ],
-        ProjectDescription: "A web app for Food Website template. Dope Ul recently played best on Youtube, and detailed information insight about everything .",
+        ProjectDescription: "A TODO web app managed with redux toolkit, slick design and well structured components.",
             ProjectImage: Project3,
           ProjectUrl: "https://xdome.vercel.app/",
         order: 1,
