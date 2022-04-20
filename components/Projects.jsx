@@ -37,7 +37,7 @@ const Projects = () => {
                                             <br />
                                             <HeadingOne
                                                 color="#0B192E"
-                                                size="clamp(16px,5vw,2rem)"
+                                                size="clamp(16px,5vw,1rem)"
                                             ><span> |</span> {" "} {project.ProjectName}</HeadingOne>
                                             <br />
                                             <Paragraph color="#636b83">

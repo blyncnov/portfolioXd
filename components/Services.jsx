@@ -39,22 +39,22 @@ const Services = () => {
 
                                     <br />
                                     <Paragraph color="#636b83">
-                                        Hello! My name is <span>Taiwo Boluwatife </span> and I enjoy creating things that live on the internet. My interest in <span>web development</span>  started back in <span>2012</span> when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
-                                        Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main <span>focus</span> these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
-                                        I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.
+                                        Hello! My name is <span>Taiwo Boluwatife </span> and I enjoy creating things that live on the internet. My interest in <span>web development</span>  started back in <span>2017</span> when I decided to try editing custom wapka and site123 website — turns out that taught me a lot about xML & HTML & CSS!
+                                        Date, I’ve had gained alot of knowledge and have worked on few many projects. My main <span>focus</span> these days is building accessible, awesome and productive designs
+                                        I also recently transitioned into blockchain development and built a new project using Ethers js & Next js.
                                         Here are a few <span>technologies I’ve been working with recently</span>
                                     </Paragraph>
                                     <br />
                                     <SkillShowCase>
-                                            {Skills.map((skill) => {
-                                                return (
-                                                    <div className="SkillFlexItem" key={skill.id}>
-                                                        <div className="" >
-                                                            <SiShowpad />
-                                                        </div>
-                                                        <li>{skill.title}</li>
-                                                    </div>)
-                                            })}
+                                        {Skills.map((skill) => {
+                                            return (
+                                                <div className="SkillFlexItem" key={skill.id}>
+                                                    <div className="" >
+                                                        <SiShowpad />
+                                                    </div>
+                                                    <li>{skill.title}</li>
+                                                </div>)
+                                        })}
                                     </SkillShowCase>
                                 </Divider>
 

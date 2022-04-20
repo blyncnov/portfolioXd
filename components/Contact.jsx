@@ -1,6 +1,5 @@
-import React from 'react'
-
-import { Wrapper, Status } from "@googlemaps/react-wrapper";
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser';
 
 // styled-components
 import {
@@ -8,18 +7,30 @@ import {
     FormContact
 } from "../styles/styled/Contact"
 
-import Button from '../constants/Button'
-
 import {
     Constraints, Section,
     SectionInner, Divider,
     HeadingOne, Paragraph,
     FlexBoxToRow
 } from "../styles/constants/Constants"
-import Image from 'next/image';
 
 
-const Contact = (Status) => {
+
+const Contact = () => {
+    const form = useRef();
+
+    const SubmitHandler = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_uca2x1k', 'template_9or7fbn', form.current, 'user_Qp1Kvs7l8ZL0vLtKArviW')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+
+    }
+
     return (
         <>
             <br />
@@ -37,12 +48,12 @@ const Contact = (Status) => {
                             <Paragraph>
                                 Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
                             </Paragraph>
-                            <FormContact>
-                                <input type="text" name="name" placeholder="Your Full Name"/>
+                            <FormContact onSubmit={SubmitHandler} ref={form}>
+                                <input type="text" name="name" placeholder="Your Full Name" />
                                 <br />
-                                <input type="email" name="email" placeholder="Your Email Address"/>
+                                <input type="email" name="email" placeholder="Your Email Address" />
                                 <br />
-                                <input type="number" name="number" placeholder='Mobile Number'/>
+                                <input type="number" name="number" placeholder='Mobile Number' />
                                 <br />
                                 <textarea name="message" cols="30" rows="10" placeholder="Enter Your Message">
                                 </textarea>
@@ -59,7 +70,7 @@ const Contact = (Status) => {
                     <br />
                     <br />
                     <h6>Designed & Built by Taiwo Boluwatife
-                    
+
                     </h6>
                     <link href="https://komarev.com/ghpvc/?username=blyncnov" />
                     <br />

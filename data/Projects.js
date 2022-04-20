@@ -34,7 +34,7 @@ export const AllProjectData = [
             "ethers js",
             "MetaMask"
         ],
-        ProjectDescription: "A web3 Ecommerce dapp for grocery , connected to ethers and blockchain. all paymnet is done in crypto currency. ",
+        ProjectDescription: "A web3 Ecommerce dapp for grocery, connected to ethers and blockchain. all payment is done in crypto currency. ",
             ProjectImage: Project5,
           ProjectUrl: "https://fichta.vercel.app/",
         order: 1,

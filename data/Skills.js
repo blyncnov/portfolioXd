@@ -9,11 +9,11 @@ export const Skills = [
     },
     {
         id: 3,
-        title: "React JS",
+        title: "React js",
     },
     {
         id: 4,
-        title: "Next JS",
+        title: "Next js",
     },
 
     {
@@ -22,7 +22,15 @@ export const Skills = [
     },
      {
         id: 6,
-        title: "Figma / Abode xD",
+        title: "Figma / Adobe xD",
+    },
+    {
+        id: 7,
+        title: "Solidity",
+    },
+        {
+        id: 8,
+        title: "Ethers js",
     },
 ]
 
