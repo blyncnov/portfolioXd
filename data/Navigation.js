@@ -13,7 +13,7 @@ export const NavigationLists = [
     {
         id: 2,
         name: "Projects",
-          navigate: "projects",
+          navigate: "#projects",
     },
     {
         id: 3,
@@ -23,7 +23,7 @@ export const NavigationLists = [
         {
         id: 4,
             name: "Contact",
-          navigate: "contact",
+          navigate: "#contact",
     },
 
 ]
