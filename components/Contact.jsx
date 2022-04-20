@@ -25,8 +25,10 @@ const Contact = () => {
         emailjs.sendForm('service_uca2x1k', 'template_9or7fbn', form.current, 'user_Qp1Kvs7l8ZL0vLtKArviW')
             .then((result) => {
                 console.log(result.text);
+                alert("Message Sent Sucessfully!");
             }, (error) => {
                 console.log(error.text);
+                alert("Try Again Later!");
             });
 
     }
