@@ -25,7 +25,7 @@ import {
 const HeroIntro = () => {
     return (
         <>
-            <HeroContainerSection>
+            <HeroContainerSection >
                 <Constraints max="90%">
                     <Section>
                         <SectionInner>

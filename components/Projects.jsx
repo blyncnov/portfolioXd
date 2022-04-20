@@ -18,7 +18,7 @@ import Link from 'next/link'
 
 const Projects = () => {
     return (
-        <>
+        <div id="projects">
             <ProjectContainer>
                 <Constraints>
                     <FlexBoxToRow>
@@ -69,7 +69,7 @@ const Projects = () => {
                     })}
                 </Constraints>
             </ProjectContainer>
-        </>
+        </div>
 
     )
 }

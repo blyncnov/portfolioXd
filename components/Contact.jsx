@@ -32,7 +32,7 @@ const Contact = () => {
     }
 
     return (
-        <>
+        <div id="contact">
             <br />
             <Constraints max="90%">
                 <FlexBoxToRow>
@@ -77,7 +77,7 @@ const Contact = () => {
                     <br />
                 </FlexBoxToRow>
             </div>
-        </>
+        </div>
     )
 }
 

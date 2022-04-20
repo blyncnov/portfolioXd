@@ -70,7 +70,7 @@ const Navigation = () => {
                                     <NavigationItem>
                                         {NavigationLists.map((list) => {
                                             return (
-                                                <Link onClick={isClickedHandler} key={list.id} passHref={true} style={{ color: "#64ffda" }} href={`/${list.navigate}`} >
+                                                <Link onClick={isClickedHandler} key={list.id} passHref={true} style={{ color: "#64ffda" }} href={`#${list.navigate}`} >
                                                     <li>
                                                         <span> 0{list.id}.</span> {" "} {list.name}
                                                     </li>
