@@ -1,5 +1,9 @@
 import styled from "styled-components"
 
+export const ContactOverContainer = styled.form`
+color: #FFFFFF;
+`
+
 export const FormContact = styled.form`
 width: 100%;
 margin: 0 auto;

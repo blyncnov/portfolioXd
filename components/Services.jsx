@@ -36,13 +36,16 @@ const Services = () => {
                                         </HeadingOne>
                                         <div className="hr"></div>
                                     </FlexBoxToRow>
-
                                     <br />
                                     <Paragraph color="#636b83">
-                                        Hello! My name is <span>Taiwo Boluwatife </span> and I enjoy creating things that live on the internet. My interest in <span>web development</span>  started back in <span>2017</span> when I decided to try editing custom wapka and site123 website — turns out that taught me a lot about xML & HTML & CSS!
-                                        Date, I’ve had gained alot of knowledge and have worked on few many projects. My main <span>focus</span> these days is building accessible, awesome and productive designs
-                                        I also recently transitioned into blockchain development and built a new project using Ethers js & Next js.
-                                        Here are a few <span>technologies I’ve been working with recently</span>
+                                        Hello! My name is <span>Taiwo Boluwatife </span> and I enjoy creating things that live on the internet.
+                                        My interest in <span>Web development</span>  started back in <span>2017</span> when I decided to try editing custom
+                                        Wapka and site123 websites — turns out that taught me a lot about XML & HTML & CSS!
+                                        Date,  I’ve gained a lot of knowledge and have worked on many projects.
+                                        My main focus  <span>focus</span>
+                                        these days is building accessible, awesome, and productive designs
+                                        I also recently transitioned into blockchain development and built a new project
+                                        using Ethers js & Next js.Here are a few <span> technologies I’ve been working with recently</span>
                                     </Paragraph>
                                     <br />
                                     <SkillShowCase>

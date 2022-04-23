@@ -7,8 +7,8 @@ import {
 
 const FloatBox = styled.div`
 margin-right: 5%;
+z-index: 2;
 background-color: transparent;  
-// padding: 1em 0;
 letter-spacing: 0.1em;
 border-radius: 2px;
 -webkit-writing-mode: vertical-rl;

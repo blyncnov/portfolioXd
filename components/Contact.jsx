@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 
 // styled-components
 import {
-    ContactContainerSection,
+    ContactOverContainer,
     FormContact
 } from "../styles/styled/Contact"
 
@@ -34,7 +34,7 @@ const Contact = () => {
     }
 
     return (
-        <div id="contact">
+        <ContactOverContainer id="contact">
             <br />
             <Constraints max="90%">
                 <FlexBoxToRow>
@@ -79,7 +79,7 @@ const Contact = () => {
                     <br />
                 </FlexBoxToRow>
             </div>
-        </div>
+        </ContactOverContainer>
     )
 }
 
