@@ -34,7 +34,7 @@ const HeroIntro = () => {
                   <Paragraph color="#F9B590">
                     Hi 👋 , my name is Taiwo Boluwatife
                   </Paragraph>{" "}
-                  I Build Cool Web Related Stuff.
+                  Get The Best Design Experience From Me
                 </HeadingOne>
                 <br />
                 <Paragraph color="#8892B0">
